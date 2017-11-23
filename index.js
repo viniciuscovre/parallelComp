@@ -2,9 +2,6 @@ const express = require('express');
 const router  = express.Router();
 const app     = express();
 
-// const logger  = require('./utils/logger');
-// app.use(logger);
-
 app.get('/', function (req, res, next) {
   const status = 200;
   const message = `Bem-vindo à loja! Não se importe com o visual da página :P`;
