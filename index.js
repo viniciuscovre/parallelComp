@@ -80,8 +80,3 @@ app.get('/example', function (req, res, next) {
 const port = 3000;
 app.listen(port);
 console.log('Listening to port ' + port + '\n');
-
-// https://davidwalsh.name/promises
-// https://www.promisejs.org/
-// https://developers.google.com/web/fundamentals/primers/promises
-// https://developer.ibm.com/node/2016/08/24/promises-in-node-js-an-alternative-to-callbacks/
